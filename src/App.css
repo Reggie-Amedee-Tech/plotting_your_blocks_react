@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: lightgray;
+  width: 970px;
+  padding: 10px;
 }
 
 .App-logo {
@@ -21,7 +24,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color:white;
 }
 
 .App-link {
@@ -35,4 +38,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.mainContainer{
+  display: flex;
+  flex-direction: row;
 }
